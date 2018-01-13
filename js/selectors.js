@@ -16,3 +16,10 @@ function lastImageSelector() {
 
     return $('img').slice(-1)
 }
+
+function ninjaBabySelector() {
+    // Does not accept any parameters. The function should use an ID selector to
+    // return the ninja baby image.
+
+    return $('#baby-ninja')
+}
