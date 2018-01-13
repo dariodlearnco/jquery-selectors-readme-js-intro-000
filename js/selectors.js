@@ -14,6 +14,5 @@ function lastImageSelector() {
     // Does not accept any parameters. The function should use the last jQuery
     // selector to return the last image in index.html.
 
-    let images = $('img')
-    return images.slice(-1)
+    return $('img').slice(-1)
 }
