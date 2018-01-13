@@ -18,7 +18,7 @@ function lastImageSelector() {
 }
 
 function ninjaBabySelector() {
-    
+
     // Does not accept any parameters. The function should use an ID selector to
     // return the ninja baby image.
 
@@ -26,10 +26,9 @@ function ninjaBabySelector() {
 }
 
 function divSelector() {
-    
+
     // Does not accept any parameters. The function should use a class selector
     // to return the two divs with the class pics.
 
     return $('.pics')
-
 }
